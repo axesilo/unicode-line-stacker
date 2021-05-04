@@ -4,5 +4,8 @@ version = "1.0.0"
 authors = ["axesilo <d.matthew.carroll@gmail.com>"]
 edition = "2018"
 license = "MIT"
+description = "Tiny library for stacking Unicode line-drawing characters on top of each other."
+repository = "https://github.com/axesilo/unicode-line-stacker"
+
 
 [dependencies]

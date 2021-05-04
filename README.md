@@ -5,13 +5,13 @@
 Suppose you are drawing "lines" in the terminal using
 [box-drawing characters](https://en.wikipedia.org/wiki/Box-drawing_character) and are filling in a 2-D grid of `char`s.
 
-You might first put down a ┌ but then later want to draw a ┴ on top of that.  This crate will replace the original horizontal char with a ┼.
+You might first put down a ┌ but then later want to draw a ┴ on top of that.  This crate will calculate that the resulting char should be a ┼.
 
 You can also convert a 4-bit bit string into a line drawing character.
 
 ## Usage
 
-```rs
+```rust
 let combo = unicode_line_stacker::stack('┌', '┴');
 assert_eq!(Some('┼'), combo);
 
