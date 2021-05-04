@@ -1,0 +1,8 @@
+[package]
+name = "unicode-line-stacker"
+version = "1.0.0"
+authors = ["axesilo <d.matthew.carroll@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
